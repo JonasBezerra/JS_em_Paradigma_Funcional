@@ -22,6 +22,9 @@ const teste3 = () => console.log("Essa é uma função está sem retorno");
 
 const teste4 = () => { return "Arrow com retorno"}
 
+// e se tiver apenas um parâmetro na função eu posso emitir o parenteses
+
+const teste5 = n => console.log(n="Jonas"); // se tiver mais de um parâmetro eu tenho q colocar o parentese
 
 // Vamos chamar as fuções
 
@@ -29,3 +32,16 @@ teste()
 teste2()
 teste3()
 console.log(teste4())
+teste5();
+
+
+
+// AGORA VAMOS DIMINUIR O CÓDIGO DA AULA SOBRE FUNÇÕES CALLBACK
+
+const looding = setInterval(() => console.log("Looding..."), 500);
+
+    
+setTimeout(()=>{ 
+    clearInterval(looding)
+    console.log('loaded')
+}, 1500);
