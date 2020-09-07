@@ -19,3 +19,11 @@ const person2 = {
 }
 
 console.log(person2)
+console.log(person)
+
+// ========= Agora vamos Aplicar em Arrays =======
+
+const numeros = [1,5,4,8,9]
+const numero2 = [...numeros, 2,3]
+console.log(numero2)
+// nesse caso ele não sobreEscreve, so vai colocando os valores do outro array
