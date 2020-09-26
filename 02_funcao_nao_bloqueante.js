@@ -5,7 +5,7 @@ setTimeout(function(){
 }, 5000)
 
 const minhaFuncao = function(){
-console.log("Oi 3!")
+    console.log("Oi 3!")
 }
 
 setTimeout(minhaFuncao, 5000) 

@@ -1,6 +1,6 @@
 // CLASSES ANÔNIMAS
 
-usuario1 = { // esse também tem uma classe anônima
+usuario1 = { // esse também tem uma classe anônima só que implicita.
     nome: 'Jonas',
     idade: 19
 }

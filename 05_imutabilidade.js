@@ -18,7 +18,7 @@ console.log(impureSumInZ(5)) // imprimi 19 e não 15
 // ====== Função Pura ========
 
 const pureSum = (x,y) => x + y
-console.log(pureSum(5))
-console.log(pureSum(7))
+console.log(pureSum(5,3))
+console.log(pureSum(7,3))
 
-// vemos que a execução dessa função não teve efeito colatera na outra
+// vemos que a execução dessa função não teve efeito colateral na outra
