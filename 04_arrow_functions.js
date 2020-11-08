@@ -24,7 +24,7 @@ const teste4 = () => { return "Arrow com retorno"}
 
 // e se tiver apenas um parâmetro na função eu posso emitir o parenteses
 
-const teste5 = n => console.log(n="Jonas"); // se tiver mais de um parâmetro eu tenho q colocar o parentese
+const teste5 = n => console.log(n); // se tiver mais de um parâmetro eu tenho q colocar o parentese
 
 // Vamos chamar as fuções
 

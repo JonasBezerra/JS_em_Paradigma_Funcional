@@ -18,12 +18,12 @@ const person2 = {
     sobrenome:'Vieira'
 }
 
-console.log(person2)
-console.log(person)
+console.log(person2) // { nome: 'Jonas Renan', idade: '19', sobrenome: 'Vieira' }
+console.log(person) // { nome: 'Jonas', idade: '19' }
 
 // ========= Agora vamos Aplicar em Arrays =======
 
 const numeros = [1,5,4,8,9]
 const numero2 = [...numeros, 2,3]
-console.log(numero2)
+console.log(numero2) // [1, 5, 4, 8,9, 2, 3]
 // nesse caso ele não sobreEscreve, so vai colocando os valores do outro array

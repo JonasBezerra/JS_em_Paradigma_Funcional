@@ -9,9 +9,12 @@
 const getNome = function () {
     console.log("Jonas!.")
     // retorna void
+    return
 }
 
 getNome();
+
+
 
 /*
  ====== Reescrevendo código ========

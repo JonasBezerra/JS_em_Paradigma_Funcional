@@ -1,4 +1,4 @@
-// Funções Impuras: Modifica um estado ou trabalha com estados que podem ser modificados
+// Funções Impuras: Modifica um estado ou trabalha com e  stados que podem ser modificados
 
 const x = 10
 const impurSum = y => x + y

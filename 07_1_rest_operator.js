@@ -1,18 +1,17 @@
 // Permiti passar múltiplos argumentos através de uma função
 // para trata - lo como restOperator eu coloco apenas 3 pontos no parâmetro
 
-function soma(...nums) { // nums é um array
-    let result = 0
-    console.log(nums)
-    
-    for (const index of nums) {
-        result+= index
-        // nesse caso o for ta iterando sobre o valor de vada posição
+function soma(...nums) { // nums
+        let result = 0
+        
+        for (let a = 0; a < nums.length; a++) {        
+            result += nums[a] // res = res + nums[a]
+        }
+        return result
     }
-    return result
-}
-
-console.log(soma(12,12,12,12))
+    
+    console.log(soma(12,12,12,12)) // 48
+    
 
 // o valor dentro de nums irá ser [12, 12, 12, 12]
 
@@ -21,11 +20,11 @@ console.log(soma(12,12,12,12))
 
 function somarArray(array) {
     let res = 0;
-    for (const a of array) {
+    for (let a = 0; a < array.length; a++) {
         // vai iterar sobre o valor de cada posição
-        res += a
+        res += array[a]
     }
     return res
 }
 
-console.log(somarArray([12,12,12,12]))
+console.log(somarArray([12, 12, 12, 12]))
