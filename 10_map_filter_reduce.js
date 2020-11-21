@@ -26,8 +26,21 @@ console.log(newNums_1)
 // vemos um pouco de programação imperativa onde dizemos como e o q vai ser feito no decorrer do programa.
 // E na programação funcional temos algo mais declarativo, a gente so diz oque vai ser feito. E não como vai ser feito!.
 
-const newNums_2 = nums.map(n => n * 2)
+const newNums_2 = nums.map(n => n * 2) // Expressão Lambda
 console.log(newNums_2);
 
+// FILTER -> Passa por cada um dos elementos e retorna somente aquele q corresponde a sua pespectiva
 
+const newNums_3 = nums.filter(n =>{ return n % 2 === 0 })
+console.log(newNums_3)
+
+// REDUCE -> reduzi tudo aquilo a um único valor.
+
+
+
+const soma = nums.reduce((acumulador,num)=> acumulador + num,0)
+console.log(soma)
+// Segundo Parametro é o valor anterior inicial. Um item que nao exite no nosso array. Como assim?.
+// n1 vai somar com o valor inicial que é 0.
+// depois esse valor vai ser acumulado
 
